@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="index.js" type="module"></script>
+        <header class="top">
+            <div>
+                <h2>Chose your favorite</h12>
+                <h1>TV SHOW for the weekend</h1>
+            </div>
+        </header>
+        <main>
+            <h3>Select your genre</h3>
+            <div class="control-container"> 
+                <div class="genre-radios" id="genre-radios"></div>
+                    <div class="serbian-checker">
+                        <label for="serbian-only" id="serbian-label">TV Shows from Serbia only</label>
+                        <input type="checkbox" id="serbian-only">
+                    </div>   
+                </div>
+                <button id="chose-btn"> Chose your show </button>
+            </div>
+        </main>
+        
+        <div class="meme-modal" id="meme-modal">
+			<button class="meme-modal-close-btn" id="close-btn">X</button>
+			<div id="meme-modal-inner"></div>
+        </div>
+        
+        
+    </body>
+</html>

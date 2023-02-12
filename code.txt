@@ -1,0 +1,16 @@
+function getFilmsGenre(films){
+    const genreArray=[]
+    for (let film of films){
+        for (let genre of film.genreTag){
+             genreArray.push(genre)
+             
+        }
+    } return genreArray
+    }
+
+function renderGenreArray(films){
+    const genres=getFilmsGenre(films)
+    console.log(genres)
+}
+
+renderGenreArray(filmsArchive)
