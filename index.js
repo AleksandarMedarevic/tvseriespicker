@@ -100,7 +100,7 @@ function renderShow(){
     `<div class="serija">
     <img 
         class="serie-img" 
-        src="images/${oneSerie.image}"
+        src="https://github.com/AleksandarMedarevic/tvseriespicker/images/${oneSerie.image}"
         alt="${oneSerie.alt}"
         >
         <h3>${oneSerie.alt}</h3>
