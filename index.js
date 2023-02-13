@@ -95,7 +95,7 @@ function getSingleShow(){
 
 function renderShow(){
     const oneSerie = getSingleShow()
-    memeModal.innerHTML += 
+    memeModalInner.innerHTML = 
     `<div class="serija">
     <img 
         class="serie-img" 
