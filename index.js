@@ -93,20 +93,32 @@ function getSingleShow(){
     return (seriesArray[item])
 }
 
+
 function renderShow(){
     const oneSerie = getSingleShow()
     memeModalInner.innerHTML = 
     `<div class="serija">
     <img 
         class="serie-img" 
-        src="images/${oneSerie.image}"
+        src="./images/${oneSerie.image}"
         alt="${oneSerie.alt}"
         >
         <h3>${oneSerie.alt}</h3>
         <div>`
-    memeModal.style.display= `flex`    
-    
+    memeModal.style.display= `flex`
+    document.getElementById("chose-btn").disabled = true
 }
+
+function closeOutside(){
+    window.onclick = function(event) {
+       if (event.target == memeModal) {
+        console.log("bbbb")
+  } else {
+      memeModal.style.display= "none"
+  }
+}
+}
+
 
 
 choseBtn.addEventListener('click', function(){ 
@@ -114,15 +126,14 @@ choseBtn.addEventListener('click', function(){
     choseYourGenre()
     createChosedShowsArray()
     getSingleShow()
-    renderShow()  
+    renderShow()
 })
 
 //close Btn
 
 let closeBtn = document.getElementById("close-btn")
-console.log(closeBtn)
 
 closeBtn.addEventListener("click", function(){
-    //memeModal.style.display= "none"
-    console.log(`aaaa`)
+    memeModal.style.display= "none"
+    document.getElementById("chose-btn").disabled = false;
 })
