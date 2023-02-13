@@ -2,42 +2,42 @@ export const filmsArchive = [
     {
         genreTag: ["comedy", "family"],
         isSerbian: false,
-        image: "alf.JPG",
+        image: "alf.jpg",
         alt: "Alf",
         start: 1986,
     },
     {
         genreTag: ["history", "comedy", "war"],
         isSerbian: false,
-        image: "alo-alo.JPG",
+        image: "alo-alo.jpg",
         alt: "Allo, allo",
         start: 1982,
     },
     {
         genreTag: ["mistery", "triller"],
         isSerbian: true,
-        image: "beleznica-profesora.JPG",
+        image: "beleznica-profesora.jpg",
         alt: "Beležnica profesora Miškovića",
         start: 2021,
     },
     {
         genreTag: ["drama", "comedy", "crime"],
         isSerbian: false,
-        image: "death-in-paradise.JPG",
+        image: "death-in-paradise.jpg",
         alt: "Death in paradise",
         start: 2011,
     },
     {
         genreTag: ["crime", "biography", "drama"],
         isSerbian: false,
-        image: "escobar.JPEG",
+        image: "escobar.jpeg",
         alt: "Pablo Escobar: El Patrón del Mal",
         start: 2022,
     },
     {
         genreTag: ["drama", "mistery", "crime"],
         isSerbian: false,
-        image: "hobotnica.JPG",
+        image: "hobotnica.jpg",
         alt: "La Piovra",
         start: 1987,
     },
@@ -51,14 +51,14 @@ export const filmsArchive = [
     {
         genreTag: ["comedy"],
         isSerbian: false,
-        image: "mucke.JPG",
+        image: "mucke.jpg",
         alt: "Only Fools and Horses",
         start: 1982,
     },
     {
         genreTag: ["drama", "mistery", "crime"],
         isSerbian: false,
-        image: "poaro.JPG",
+        image: "poaro.jpg",
         alt: "Poirot",
         start: 2002,
     },
@@ -72,7 +72,7 @@ export const filmsArchive = [
     {
         genreTag: ["war", "drama"],
         isSerbian: true,
-        image: "salas-u-malom-ritu.JPG",
+        image: "salas-u-malom-ritu.jpg",
         alt: "Salaš u malom ritu",
         start: 1969,
     },
@@ -127,7 +127,7 @@ export const filmsArchive = [
     },
 ]
 
-function getFilmsGenre(films){
+/*function getFilmsGenre(films){
     const genreArray=[]
     for (let film of films){
         for (let genre of film.genreTag){
@@ -142,4 +142,4 @@ function renderGenreArray(films){
     console.log(genres)
 }
 
-renderGenreArray(filmsArchive)
+renderGenreArray(filmsArchive)*/
