@@ -99,8 +99,7 @@ function renderShow(){
     memeModalInner.innerHTML = 
     `<div class="serija">
     <img 
-        class="serie-img" 
-        src="https://github.com/AleksandarMedarevic/tvseriespicker/images/${oneSerie.image}"
+        class="https://raw.githubusercontent.com/AleksandarMedarevic/tvseriespicker/main/images/${oneSerie.image}"
         alt="${oneSerie.alt}"
         >
         <h3>${oneSerie.alt}</h3>
